@@ -1,0 +1,30 @@
+:root {
+
+  --red: hsl(0, 78%, 62%);
+  --cyan: hsl(180, 62%, 55%);
+  --orange: hsl(34, 97%, 64%);
+  --blue: hsl(212, 86%, 64%);
+
+  --dark-blue: hsl(234, 12%, 34%);
+  --greyish-blue: hsl(229, 6%, 66%);
+  --light-grey: hsl(0, 0%, 98%);
+
+  --font-weight-light: 200;
+  --font-weight-medium: 400;
+  --font-weight-heavy: 600;
+
+  --font-family-poppins: "Poppins", sans-serif;
+
+}
+
+html {
+  font-size: 15px;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
