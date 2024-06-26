@@ -28,3 +28,40 @@ html {
   padding: 0;
   box-sizing: border-box;
 }
+
+body {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--light-grey);
+  min-height: 100vh;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  max-width: 40rem;
+  background-color: transparent;
+  font-family: var(--font-family-poppins);
+  color: var(--greyish-blue);
+  border: 1px solid black;
+}
+
+h1 {
+  text-align: center;
+  font-weight: var(--font-weight-light);
+  color: var(--dark-blue);
+  font-size: 1.625rem;
+}
+
+h1:last-of-type {
+  font-weight: var(--font-weight-heavy);
+}
+
+header p {}
+
+.head-para {
+  font-size: ;
+}
